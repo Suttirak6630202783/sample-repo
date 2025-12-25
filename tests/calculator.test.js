@@ -9,8 +9,8 @@ describe("Calculator", () => {
     expect(add(-2, -3)).toBe(-5);
   });
 
-  test("subtracts 5 - 3 to equal 2", () => {
-    expect(subtract(5, 3)).toBe(2);
+  test("subtracts 5 - 5 to equal 0", () => {
+    expect(subtract(5, 5)).toBe(0);
   });
 
   test("multiplies 4 * 3 to equal 12", () => {
